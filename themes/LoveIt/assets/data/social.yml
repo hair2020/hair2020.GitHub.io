@@ -1,0 +1,72 @@
+# 001: Github
+github:
+  Weight: 1
+  Prefix: https://github.com/
+  Title: GitHub
+  Icon:
+    Class: fab fa-github-alt fa-fw
+
+# 003: Twitter
+twitter:
+  Weight: 3
+  Prefix: https://twitter.com/
+  Title: Twitter
+  Icon:
+    Class: fab fa-twitter fa-fw
+
+# 005: facebook
+facebook:
+  Weight: 5
+  Prefix: https://facebook.com/
+  Title: facebook
+  Icon:
+    Class: fab fa-facebook fa-fw
+
+# 006: Telegram
+telegram:
+  Weight: 6
+  Prefix: https://t.me/
+  Title: Telegram
+  Icon:
+    Class: fab fa-telegram-plane fa-fw
+
+# 039: Steam
+steam:
+  Weight: 39
+  Prefix: https://steamcommunity.com/id/
+  Title: Steam
+  Icon:
+    Class: fab fa-steam fa-fw
+
+# 044: 知乎
+zhihu:
+  Weight: 44
+  Prefix: https://www.zhihu.com/people/
+  Title: 知乎
+  Icon:
+    Simpleicons: zhihu
+
+# 062: bilibili
+bilibili:
+  Weight: 62
+  Prefix: https://space.bilibili.com/
+  Title: bilibili
+  Icon:
+    Src: svg/icons/bilibili.svg
+
+# 063: Email
+email:
+  Weight: 63
+  Template: mailto:%v
+  Title: Email
+  Icon:
+    Class: far fa-envelope fa-fw
+
+# 064: RSS
+rss:
+  Weight: 64
+  Url: /index.xml
+  Title: RSS
+  Newtab: true
+  Icon:
+    Class: fas fa-rss fa-fw
