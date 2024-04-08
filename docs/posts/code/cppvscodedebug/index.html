@@ -8,14 +8,11 @@
         <title>cppVscodeDebug - HAIR&#39;s world</title><meta name="Description" content="关于 LoveIt 主题"><meta property="og:title" content="cppVscodeDebug" />
 <meta property="og:description" content="出问题时的配置 数据结构的源码是GBK编码，vscode右下角可以改文件编码为GBK vscode终端选择powershell: Ctrl&#43;Shift&#43;p search Select Deafult profile 输入c" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://hair2020.github.io/posts/code/cppvscodedebug/" /><meta property="og:image" content="https://hair2020.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://hair2020.github.io/posts/code/cppvscodedebug/" /><meta property="og:image" content="https://hair2020.github.io/logo.png" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-02-26T20:53:51+08:00" />
 <meta property="article:modified_time" content="2022-02-26T20:53:51+08:00" />
-
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://hair2020.github.io/logo.png"/>
-
-<meta name="twitter:title" content="cppVscodeDebug"/>
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://hair2020.github.io/logo.png" /><meta name="twitter:title" content="cppVscodeDebug"/>
 <meta name="twitter:description" content="出问题时的配置 数据结构的源码是GBK编码，vscode右下角可以改文件编码为GBK vscode终端选择powershell: Ctrl&#43;Shift&#43;p search Select Deafult profile 输入c"/>
 <meta name="application-name" content="LoveIt">
 <meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><script>
@@ -39,7 +36,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/hair2020.github.io\/posts\/code\/cppvscodedebug\/"
-        },"image": ["https:\/\/hair2020.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "vscode","wordcount":  334 ,
+        },"image": ["https:\/\/hair2020.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "vscode","wordcount":  335 ,
         "url": "https:\/\/hair2020.github.io\/posts\/code\/cppvscodedebug\/","datePublished": "2022-02-26T20:53:51+08:00","dateModified": "2022-02-26T20:53:51+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
@@ -120,8 +117,8 @@
             <h2 class="toc-title">目录</h2>
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">cppVscodeDebug</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>hair</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/notes/"><i class="far fa-folder fa-fw"></i>notes</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-02-26">2022-02-26</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 334 字&nbsp;
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>hair</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/notes/"><i class="far fa-folder fa-fw"></i>Notes</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-02-26">2022-02-26</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 335 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 1 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
@@ -148,7 +145,7 @@
 <p><a href="https://zhuanlan.zhihu.com/p/85273055" target="_blank" rel="noopener noreffer">VS Code之C/C++程序的调试(Debug)功能简介</a></p>
 <h3 id="问题出现">问题出现</h3>
 <p>调试时终端是cppdbg
-​<figure><img src="/images/cppVscodeDebug/0.png"/>
+​<figure><img src="/images/cppVscodeDebug/0.png">
 </figure>
 </p>
 <p>试了改注册表，将<code>计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor</code>中的<code>autorun</code>的值改为<code>936</code>（gbk）</p>
@@ -165,12 +162,12 @@
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="cp">#include</span> <span class="cpf">&#34;windows.h&#34;</span><span class="cp">
-</span><span class="cp"></span><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="n">SetConsoleOutputCP</span><span class="p">(</span><span class="mi">936</span><span class="p">);</span> <span class="err">#</span> <span class="n">change</span> <span class="n">the</span> <span class="n">encode</span> <span class="n">what</span> <span class="n">you</span> <span class="n">want</span>
-    
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&#34;windows.h&#34;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nf">SetConsoleOutputCP</span><span class="p">(</span><span class="mi">936</span><span class="p">);</span> <span class="err">#</span> <span class="n">change</span> <span class="n">the</span> <span class="n">encode</span> <span class="n">what</span> <span class="n">you</span> <span class="n">want</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Problem solved.</p>
 </div><div class="post-footer" id="post-footer">
@@ -190,7 +187,7 @@
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/vscode/">vscode</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/vscode/">Vscode</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
         </section>

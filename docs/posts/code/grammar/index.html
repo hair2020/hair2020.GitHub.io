@@ -8,14 +8,11 @@
         <title>Go Grammar memo - HAIR&#39;s world</title><meta name="Description" content="关于 LoveIt 主题"><meta property="og:title" content="Go Grammar memo" />
 <meta property="og:description" content="基中基 uint、unit32、unit64 都是无符号整形，在32位系统中uint和uint32相同，在64位系统中uint和uint64位相" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://hair2020.github.io/posts/code/grammar/" /><meta property="og:image" content="https://hair2020.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://hair2020.github.io/posts/code/grammar/" /><meta property="og:image" content="https://hair2020.github.io/logo.png" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-02-09T20:31:45+08:00" />
 <meta property="article:modified_time" content="2022-02-09T20:31:45+08:00" />
-
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://hair2020.github.io/logo.png"/>
-
-<meta name="twitter:title" content="Go Grammar memo"/>
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://hair2020.github.io/logo.png" /><meta name="twitter:title" content="Go Grammar memo"/>
 <meta name="twitter:description" content="基中基 uint、unit32、unit64 都是无符号整形，在32位系统中uint和uint32相同，在64位系统中uint和uint64位相"/>
 <meta name="application-name" content="LoveIt">
 <meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><script>
@@ -120,7 +117,7 @@
             <h2 class="toc-title">目录</h2>
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">Go Grammar memo</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>hair</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/notes/"><i class="far fa-folder fa-fw"></i>notes</a></span></div>
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>hair</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/notes/"><i class="far fa-folder fa-fw"></i>Notes</a></span></div>
             <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-02-09">2022-02-09</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 901 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
@@ -204,15 +201,15 @@
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">echoString</span><span class="p">(</span><span class="nx">content</span> <span class="kd">interface</span><span class="p">{})</span> <span class="p">{</span>
-    <span class="nx">result</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nx">content</span><span class="p">.(</span><span class="kt">string</span><span class="p">)</span>  <span class="c1">//通过断言实现类型转换
-</span><span class="c1"></span>    <span class="k">if</span> <span class="nx">err</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>  <span class="c1">// 断言失败
-</span><span class="c1"></span>        <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">err</span> <span class="p">.</span><span class="nf">Error</span><span class="p">())</span>  <span class="c1">// 输出失败原因
-</span><span class="c1"></span>        <span class="k">return</span>
-    <span class="p">}</span>
-    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">result</span><span class="p">)</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">echoString</span><span class="p">(</span><span class="nx">content</span> <span class="kd">interface</span><span class="p">{})</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">result</span><span class="p">,</span> <span class="nx">err</span> <span class="o">:=</span> <span class="nx">content</span><span class="p">.(</span><span class="kt">string</span><span class="p">)</span>  <span class="c1">//通过断言实现类型转换
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">if</span> <span class="nx">err</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>  <span class="c1">// 断言失败
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">err</span> <span class="p">.</span><span class="nf">Error</span><span class="p">())</span>  <span class="c1">// 输出失败原因
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="k">return</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">result</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="运算符">运算符</h4>
 <ul>
@@ -229,14 +226,14 @@
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go">	<span class="nx">pow</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">([]</span><span class="kt">int</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
-	<span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="k">range</span> <span class="nx">pow</span> <span class="p">{</span>
-		<span class="nx">pow</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="p">=</span> <span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="nb">uint</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span> <span class="c1">// == 2**i
-</span><span class="c1"></span>		<span class="nx">a</span> <span class="o">:=</span> <span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="nb">uint</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
-		<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;%b \n&#34;</span><span class="p">,</span><span class="nx">a</span><span class="p">)</span>
-<span class="c1">// 结果
-</span><span class="c1">// 1 10 100 ...
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl">	<span class="nx">pow</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">([]</span><span class="kt">int</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="k">range</span> <span class="nx">pow</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="nx">pow</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="p">=</span> <span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="nb">uint</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span> <span class="c1">// == 2**i
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>		<span class="nx">a</span> <span class="o">:=</span> <span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="nb">uint</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;%b \n&#34;</span><span class="p">,</span><span class="nx">a</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 结果
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 1 10 100 ...
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>1的二进制数0001，把有效值1向左移unit(i)位，正数左边第一位补0，负数补1，等于2的unit(i)次方</p>
 </li>
@@ -253,14 +250,14 @@
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go">	<span class="nx">p</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">([]</span><span class="kt">int</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
-	<span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="k">range</span> <span class="nx">p</span><span class="p">{</span>
-		<span class="nx">a</span> <span class="o">:=</span> <span class="mi">7</span> <span class="o">&gt;&gt;</span> <span class="nb">uint</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
-		<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;%b \n&#34;</span><span class="p">,</span><span class="nx">a</span><span class="p">)</span>
-	<span class="p">}</span>
-<span class="c1">// result
-</span><span class="c1">// 111 11 1 0 0 ...
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl">	<span class="nx">p</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">([]</span><span class="kt">int</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="k">range</span> <span class="nx">p</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="nx">a</span> <span class="o">:=</span> <span class="mi">7</span> <span class="o">&gt;&gt;</span> <span class="nb">uint</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;%b \n&#34;</span><span class="p">,</span><span class="nx">a</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 111 11 1 0 0 ...
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>7的二进制数0111，把有效值111向右移unit(i)位，正数左边第一位补0，负数补1，等于除以2的unit(i)次方</p>
 </li>
@@ -276,10 +273,10 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="nx">strs</span> <span class="o">:=</span> <span class="p">[]</span><span class="kt">string</span><span class="p">{</span><span class="s">&#34;123&#34;</span><span class="p">,</span><span class="s">&#34;dsfg&#34;</span><span class="p">}</span>
-<span class="nx">strs</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="c1">// ==&#34;1&#34;
-</span><span class="c1"></span><span class="nx">strs</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">:</span><span class="mi">0</span><span class="p">]</span> <span class="c1">// ==&#34;&#34;
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="nx">strs</span> <span class="o">:=</span> <span class="p">[]</span><span class="kt">string</span><span class="p">{</span><span class="s">&#34;123&#34;</span><span class="p">,</span><span class="s">&#34;dsfg&#34;</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="nx">strs</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="c1">// ==&#34;1&#34;
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">strs</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">:</span><span class="mi">0</span><span class="p">]</span> <span class="c1">// ==&#34;&#34;
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div></li>
 </ul>
@@ -319,32 +316,32 @@
 </span><span class="lnt">25
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">func</span> <span class="nf">test1</span><span class="p">(</span><span class="nx">args</span> <span class="o">...</span><span class="kt">string</span><span class="p">)</span> <span class="p">{</span> <span class="c1">//可以接受任意个string参数
-</span><span class="c1"></span>	<span class="k">for</span> <span class="nx">_</span><span class="p">,</span> <span class="nx">v</span><span class="o">:=</span> <span class="k">range</span> <span class="nx">args</span><span class="p">{</span>
-		<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">v</span><span class="p">)</span>
-	<span class="p">}</span>
-<span class="p">}</span>
-
-<span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
-
-	<span class="kd">var</span> <span class="nx">strss0</span> <span class="p">=</span> <span class="p">[]</span><span class="kt">string</span><span class="p">{</span>
-		<span class="s">&#34;qwr&#34;</span><span class="p">,</span>
-		<span class="s">&#34;234&#34;</span><span class="p">,</span>
-	<span class="p">}</span>
-	<span class="kd">var</span> <span class="nx">strss1</span> <span class="p">=</span> <span class="p">[]</span><span class="kt">string</span><span class="p">{</span>
-		<span class="s">&#34;q&#34;</span><span class="p">,</span>
-	<span class="p">}</span>
-	<span class="nx">strss</span> <span class="o">:=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">strss0</span><span class="p">,</span><span class="nx">strss1</span><span class="o">...</span><span class="p">)</span><span class="c1">// strss2的元素被打散一个个append进strss
-</span><span class="c1"></span>	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">strss</span><span class="p">)</span>
-	<span class="nf">test1</span><span class="p">(</span><span class="nx">strss</span><span class="o">...</span><span class="p">)</span> <span class="c1">//切片被打散传入
-</span><span class="c1"></span><span class="p">}</span>
-<span class="cm">/* 结果：
-</span><span class="cm">[qwr 234 q]
-</span><span class="cm">qwr
-</span><span class="cm">234
-</span><span class="cm">q
-</span><span class="cm">*/</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">test1</span><span class="p">(</span><span class="nx">args</span> <span class="o">...</span><span class="kt">string</span><span class="p">)</span> <span class="p">{</span> <span class="c1">//可以接受任意个string参数
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="k">for</span> <span class="nx">_</span><span class="p">,</span> <span class="nx">v</span><span class="o">:=</span> <span class="k">range</span> <span class="nx">args</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">v</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="kd">var</span> <span class="nx">strss0</span> <span class="p">=</span> <span class="p">[]</span><span class="kt">string</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="s">&#34;qwr&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">		<span class="s">&#34;234&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">var</span> <span class="nx">strss1</span> <span class="p">=</span> <span class="p">[]</span><span class="kt">string</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="s">&#34;q&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">strss</span> <span class="o">:=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">strss0</span><span class="p">,</span><span class="nx">strss1</span><span class="o">...</span><span class="p">)</span><span class="c1">// strss2的元素被打散一个个append进strss
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">strss</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="nf">test1</span><span class="p">(</span><span class="nx">strss</span><span class="o">...</span><span class="p">)</span> <span class="c1">//切片被打散传入
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="cm">/* 结果：
+</span></span></span><span class="line"><span class="cl"><span class="cm">[qwr 234 q]
+</span></span></span><span class="line"><span class="cl"><span class="cm">qwr
+</span></span></span><span class="line"><span class="cl"><span class="cm">234
+</span></span></span><span class="line"><span class="cl"><span class="cm">q
+</span></span></span><span class="line"><span class="cl"><span class="cm">*/</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="标准库">标准库</h2>
 <h3 id="fmt">fmt</h3>
@@ -358,10 +355,10 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kd">var</span> <span class="nx">a</span> <span class="kt">uint</span>
-<span class="nx">a</span> <span class="p">=</span> <span class="mi">66</span>
-<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;%b \n&#34;</span><span class="p">,</span> <span class="nx">a</span><span class="p">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">var</span> <span class="nx">a</span> <span class="kt">uint</span>
+</span></span><span class="line"><span class="cl"><span class="nx">a</span> <span class="p">=</span> <span class="mi">66</span>
+</span></span><span class="line"><span class="cl"><span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;%b \n&#34;</span><span class="p">,</span> <span class="nx">a</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div></li>
 </ul>
@@ -394,23 +391,23 @@
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
-
-<span class="kn">import</span> <span class="p">(</span>
-    <span class="s">&#34;log&#34;</span>
-<span class="p">)</span>
-
-<span class="kd">func</span> <span class="nf">foo</span><span class="p">()</span> <span class="p">{</span>
-    <span class="k">defer</span> <span class="kd">func</span> <span class="p">()</span> <span class="p">{</span> <span class="nx">log</span><span class="p">.</span><span class="nf">Print</span><span class="p">(</span><span class="s">&#34;3333&#34;</span><span class="p">)}</span> <span class="p">()</span>
-    <span class="nx">log</span><span class="p">.</span><span class="nf">Fatal</span><span class="p">(</span><span class="s">&#34;4444&#34;</span><span class="p">)</span>
-<span class="p">}</span>
-<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-    <span class="nx">log</span><span class="p">.</span><span class="nf">Print</span><span class="p">(</span><span class="s">&#34;1111&#34;</span><span class="p">)</span>
-    <span class="k">defer</span> <span class="kd">func</span> <span class="p">()</span> <span class="p">{</span> <span class="nx">log</span><span class="p">.</span><span class="nf">Print</span><span class="p">(</span><span class="s">&#34;2222&#34;</span><span class="p">)}</span> <span class="p">()</span>
-    <span class="nf">foo</span><span class="p">()</span>
-    <span class="nx">log</span><span class="p">.</span><span class="nf">Print</span><span class="p">(</span><span class="s">&#34;9999&#34;</span><span class="p">)</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="s">&#34;log&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">foo</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">defer</span> <span class="kd">func</span> <span class="p">()</span> <span class="p">{</span> <span class="nx">log</span><span class="p">.</span><span class="nf">Print</span><span class="p">(</span><span class="s">&#34;3333&#34;</span><span class="p">)}</span> <span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">log</span><span class="p">.</span><span class="nf">Fatal</span><span class="p">(</span><span class="s">&#34;4444&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">log</span><span class="p">.</span><span class="nf">Print</span><span class="p">(</span><span class="s">&#34;1111&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">defer</span> <span class="kd">func</span> <span class="p">()</span> <span class="p">{</span> <span class="nx">log</span><span class="p">.</span><span class="nf">Print</span><span class="p">(</span><span class="s">&#34;2222&#34;</span><span class="p">)}</span> <span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">foo</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">log</span><span class="p">.</span><span class="nf">Print</span><span class="p">(</span><span class="s">&#34;9999&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>运行结果：</p>
 <div class="highlight"><div class="chroma">
@@ -419,9 +416,9 @@
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-groovy" data-lang="groovy"><span class="mi">2018</span><span class="s">/08/</span><span class="mi">20</span> <span class="mi">17</span><span class="o">:</span><span class="mi">48</span><span class="o">:</span><span class="mi">44</span> <span class="mi">1111</span>
-<span class="mi">2018</span><span class="s">/08/</span><span class="mi">20</span> <span class="mi">17</span><span class="o">:</span><span class="mi">48</span><span class="o">:</span><span class="mi">44</span> <span class="mi">4444</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-groovy" data-lang="groovy"><span class="line"><span class="cl"><span class="mi">2018</span><span class="s">/08/</span><span class="mi">20</span> <span class="mi">17</span><span class="o">:</span><span class="mi">48</span><span class="o">:</span><span class="mi">44</span> <span class="mi">1111</span>
+</span></span><span class="line"><span class="cl"><span class="mi">2018</span><span class="s">/08/</span><span class="mi">20</span> <span class="mi">17</span><span class="o">:</span><span class="mi">48</span><span class="o">:</span><span class="mi">44</span> <span class="mi">4444</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div></li>
 </ul>
@@ -457,22 +454,22 @@
 </span><span class="lnt">15
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kn">package</span> <span class="nx">main</span>
-<span class="kn">import</span> <span class="p">(</span>
-    <span class="s">&#34;log&#34;</span>
-<span class="p">)</span>
-
-<span class="kd">func</span> <span class="nf">foo</span><span class="p">()</span> <span class="p">{</span>
-    <span class="k">defer</span> <span class="kd">func</span> <span class="p">()</span> <span class="p">{</span> <span class="nx">log</span><span class="p">.</span><span class="nf">Print</span><span class="p">(</span><span class="s">&#34;3333&#34;</span><span class="p">)}</span> <span class="p">()</span>
-    <span class="nb">panic</span><span class="p">(</span><span class="s">&#34;4444&#34;</span><span class="p">)</span>
-<span class="p">}</span>
-<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-    <span class="nx">log</span><span class="p">.</span><span class="nf">Print</span><span class="p">(</span><span class="s">&#34;1111&#34;</span><span class="p">)</span>
-    <span class="k">defer</span> <span class="kd">func</span> <span class="p">()</span> <span class="p">{</span> <span class="nx">log</span><span class="p">.</span><span class="nf">Print</span><span class="p">(</span><span class="s">&#34;2222&#34;</span><span class="p">)}</span> <span class="p">()</span>
-    <span class="nf">foo</span><span class="p">()</span>
-    <span class="nx">log</span><span class="p">.</span><span class="nf">Print</span><span class="p">(</span><span class="s">&#34;9999&#34;</span><span class="p">)</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="s">&#34;log&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">foo</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">defer</span> <span class="kd">func</span> <span class="p">()</span> <span class="p">{</span> <span class="nx">log</span><span class="p">.</span><span class="nf">Print</span><span class="p">(</span><span class="s">&#34;3333&#34;</span><span class="p">)}</span> <span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">panic</span><span class="p">(</span><span class="s">&#34;4444&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">log</span><span class="p">.</span><span class="nf">Print</span><span class="p">(</span><span class="s">&#34;1111&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">defer</span> <span class="kd">func</span> <span class="p">()</span> <span class="p">{</span> <span class="nx">log</span><span class="p">.</span><span class="nf">Print</span><span class="p">(</span><span class="s">&#34;2222&#34;</span><span class="p">)}</span> <span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">foo</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">log</span><span class="p">.</span><span class="nf">Print</span><span class="p">(</span><span class="s">&#34;9999&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>运行结果：</p>
 <div class="highlight"><div class="chroma">
@@ -489,17 +486,17 @@
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-groovy" data-lang="groovy"><span class="mi">2018</span><span class="s">/08/</span><span class="mi">20</span> <span class="mi">17</span><span class="o">:</span><span class="mi">49</span><span class="o">:</span><span class="mi">28</span> <span class="mi">1111</span>
-<span class="mi">2018</span><span class="s">/08/</span><span class="mi">20</span> <span class="mi">17</span><span class="o">:</span><span class="mi">49</span><span class="o">:</span><span class="mi">28</span> <span class="mi">3333</span>
-<span class="mi">2018</span><span class="s">/08/</span><span class="mi">20</span> <span class="mi">17</span><span class="o">:</span><span class="mi">49</span><span class="o">:</span><span class="mi">28</span> <span class="mi">2222</span>
-<span class="nl">panic:</span> <span class="mi">4444</span>
-
-<span class="n">goroutine</span> <span class="mi">1</span> <span class="o">[</span><span class="n">running</span><span class="o">]:</span>
-<span class="n">main</span><span class="o">.</span><span class="na">foo</span><span class="o">()</span>
-        <span class="s">/home/</span><span class="o">...</span><span class="s">/main.go:9 +0x55
-</span><span class="s">main.main()
-</span><span class="s">        /</span><span class="n">home</span><span class="s">/.../</span><span class="n">main</span><span class="o">.</span><span class="na">go</span><span class="o">:</span><span class="mi">15</span> <span class="o">+</span><span class="mh">0x82</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-groovy" data-lang="groovy"><span class="line"><span class="cl"><span class="mi">2018</span><span class="s">/08/</span><span class="mi">20</span> <span class="mi">17</span><span class="o">:</span><span class="mi">49</span><span class="o">:</span><span class="mi">28</span> <span class="mi">1111</span>
+</span></span><span class="line"><span class="cl"><span class="mi">2018</span><span class="s">/08/</span><span class="mi">20</span> <span class="mi">17</span><span class="o">:</span><span class="mi">49</span><span class="o">:</span><span class="mi">28</span> <span class="mi">3333</span>
+</span></span><span class="line"><span class="cl"><span class="mi">2018</span><span class="s">/08/</span><span class="mi">20</span> <span class="mi">17</span><span class="o">:</span><span class="mi">49</span><span class="o">:</span><span class="mi">28</span> <span class="mi">2222</span>
+</span></span><span class="line"><span class="cl"><span class="nl">panic:</span> <span class="mi">4444</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">goroutine</span> <span class="mi">1</span> <span class="o">[</span><span class="n">running</span><span class="o">]:</span>
+</span></span><span class="line"><span class="cl"><span class="n">main</span><span class="o">.</span><span class="na">foo</span><span class="o">()</span>
+</span></span><span class="line"><span class="cl">        <span class="s">/home/</span><span class="o">...</span><span class="s">/main.go:9 +0x55
+</span></span></span><span class="line"><span class="cl"><span class="s">main.main()
+</span></span></span><span class="line"><span class="cl"><span class="s">        /</span><span class="n">home</span><span class="s">/.../</span><span class="n">main</span><span class="o">.</span><span class="na">go</span><span class="o">:</span><span class="mi">15</span> <span class="o">+</span><span class="mh">0x82</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div></div><div class="post-footer" id="post-footer">
     <div class="post-info">
@@ -518,7 +515,7 @@
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/go/">go</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/go/">Go</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
         </section>
