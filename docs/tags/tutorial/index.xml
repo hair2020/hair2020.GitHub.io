@@ -1,50 +1,50 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tutorial - 标签 - HAIR&#39;s world</title>
-        <link>https://hair2020.github.io/tags/tutorial/</link>
+        <link>http://localhost:1313/tags/tutorial/</link>
         <description>Tutorial - 标签 - HAIR&#39;s world</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>a644661457@gmail.com (hair)</managingEditor>
-            <webMaster>a644661457@gmail.com (hair)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 01 Mar 2022 17:08:36 &#43;0800</lastBuildDate><atom:link href="https://hair2020.github.io/tags/tutorial/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>a644661457@gmail.com (hair)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 01 Mar 2022 17:08:36 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/tutorial/" rel="self" type="application/rss+xml" /><item>
     <title>MarkDownMemo</title>
-    <link>https://hair2020.github.io/posts/memos/markdownmemo/</link>
+    <link>http://localhost:1313/posts/memos/markdownmemo/</link>
     <pubDate>Tue, 01 Mar 2022 17:08:36 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://hair2020.github.io/posts/memos/markdownmemo/</guid>
+    <guid>http://localhost:1313/posts/memos/markdownmemo/</guid>
     <description><![CDATA[公式块formula block 换行newline :段落的换行是使用两个以上空格加上回车。 空格space: Input methods switch to full angle to work 字体 1 2 3 4 5 6 *斜体文本*]]></description>
 </item><item>
     <title>无损扩容C盘</title>
-    <link>https://hair2020.github.io/posts/memos/%E6%97%A0%E6%8D%9F%E6%89%A9%E5%AE%B9c%E7%9B%98/</link>
+    <link>http://localhost:1313/posts/memos/%E6%97%A0%E6%8D%9F%E6%89%A9%E5%AE%B9c%E7%9B%98/</link>
     <pubDate>Wed, 09 Feb 2022 16:43:13 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://hair2020.github.io/posts/memos/%E6%97%A0%E6%8D%9F%E6%89%A9%E5%AE%B9c%E7%9B%98/</guid>
+    <guid>http://localhost:1313/posts/memos/%E6%97%A0%E6%8D%9F%E6%89%A9%E5%AE%B9c%E7%9B%98/</guid>
     <description><![CDATA[摘要 我的小本由于Edge和开发环境的原因，C盘快爆了，想给他加20个G。 环境 win10 有C,D,E仨盘，采用GPT分区 开搞 过程： 从 (怎样将d盘的空间]]></description>
 </item><item>
     <title>如何把旧电脑改成服务器用</title>
-    <link>https://hair2020.github.io/posts/memos/%E5%A6%82%E4%BD%95%E6%8A%8A%E6%97%A7%E7%94%B5%E8%84%91%E6%94%B9%E6%88%90%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%94%A8/</link>
+    <link>http://localhost:1313/posts/memos/%E5%A6%82%E4%BD%95%E6%8A%8A%E6%97%A7%E7%94%B5%E8%84%91%E6%94%B9%E6%88%90%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%94%A8/</link>
     <pubDate>Sun, 30 Jan 2022 20:52:10 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://hair2020.github.io/posts/memos/%E5%A6%82%E4%BD%95%E6%8A%8A%E6%97%A7%E7%94%B5%E8%84%91%E6%94%B9%E6%88%90%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%94%A8/</guid>
+    <guid>http://localhost:1313/posts/memos/%E5%A6%82%E4%BD%95%E6%8A%8A%E6%97%A7%E7%94%B5%E8%84%91%E6%94%B9%E6%88%90%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%94%A8/</guid>
     <description><![CDATA[如何把旧电脑改成服务器用 [TOC] 任务 下载服务器系统。本次采用Ubuntu server LTS 20.04 制作系统U盘。本次采用rufus 3.17 安装系统 可从外网访问，本次采用cp]]></description>
 </item><item>
     <title>Git备忘录</title>
-    <link>https://hair2020.github.io/posts/memos/git/</link>
+    <link>http://localhost:1313/posts/memos/git/</link>
     <pubDate>Fri, 28 Jan 2022 01:13:59 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://hair2020.github.io/posts/memos/git/</guid>
+    <guid>http://localhost:1313/posts/memos/git/</guid>
     <description><![CDATA[git操作备忘录 [TOC] 上传仓库 初始化 git init 添加所有文件到暂存区 git add . 告诉git，把文件提交到仓库 git commit -m &quot;frist commit&quot; 关联远程仓库 git remote add origin 仓库地址 提交 git push 删除]]></description>
 </item><item>
     <title>LoveIt备忘</title>
-    <link>https://hair2020.github.io/posts/memos/loveit%E5%A4%87%E5%BF%98/</link>
+    <link>http://localhost:1313/posts/memos/loveit%E5%A4%87%E5%BF%98/</link>
     <pubDate>Thu, 27 Jan 2022 21:35:15 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://hair2020.github.io/posts/memos/loveit%E5%A4%87%E5%BF%98/</guid>
+    <guid>http://localhost:1313/posts/memos/loveit%E5%A4%87%E5%BF%98/</guid>
     <description><![CDATA[LoveIt主题备忘录 图像类 头像：/assets/images/avatar.png 网页小图像favicon： 还不会改，先隐藏了。confi]]></description>
 </item><item>
     <title>想建站？</title>
-    <link>https://hair2020.github.io/posts/memos/%E4%BD%A0%E4%B9%9F%E6%83%B3%E5%BB%BA%E7%AB%99/</link>
+    <link>http://localhost:1313/posts/memos/%E4%BD%A0%E4%B9%9F%E6%83%B3%E5%BB%BA%E7%AB%99/</link>
     <pubDate>Thu, 27 Jan 2022 15:16:19 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://hair2020.github.io/posts/memos/%E4%BD%A0%E4%B9%9F%E6%83%B3%E5%BB%BA%E7%AB%99/</guid>
+    <guid>http://localhost:1313/posts/memos/%E4%BD%A0%E4%B9%9F%E6%83%B3%E5%BB%BA%E7%AB%99/</guid>
     <description><![CDATA[[TOC] 如何建站？（以本站为例） 本教程需要 注册github账号能力 搜索引擎使用能力 科学上网能力 文档阅读能力 英语能力 或 使用翻译功能能力 Markdow]]></description>
 </item></channel>
 </rss>

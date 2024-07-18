@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>HugoTheme - 标签 - HAIR&#39;s world</title>
-        <link>https://hair2020.github.io/tags/hugotheme/</link>
+        <link>http://localhost:1313/tags/hugotheme/</link>
         <description>HugoTheme - 标签 - HAIR&#39;s world</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>a644661457@gmail.com (hair)</managingEditor>
-            <webMaster>a644661457@gmail.com (hair)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 27 Jan 2022 21:35:15 &#43;0800</lastBuildDate><atom:link href="https://hair2020.github.io/tags/hugotheme/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>a644661457@gmail.com (hair)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 27 Jan 2022 21:35:15 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/hugotheme/" rel="self" type="application/rss+xml" /><item>
     <title>LoveIt备忘</title>
-    <link>https://hair2020.github.io/posts/memos/loveit%E5%A4%87%E5%BF%98/</link>
+    <link>http://localhost:1313/posts/memos/loveit%E5%A4%87%E5%BF%98/</link>
     <pubDate>Thu, 27 Jan 2022 21:35:15 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://hair2020.github.io/posts/memos/loveit%E5%A4%87%E5%BF%98/</guid>
+    <guid>http://localhost:1313/posts/memos/loveit%E5%A4%87%E5%BF%98/</guid>
     <description><![CDATA[LoveIt主题备忘录 图像类 头像：/assets/images/avatar.png 网页小图像favicon： 还不会改，先隐藏了。confi]]></description>
 </item></channel>
 </rss>

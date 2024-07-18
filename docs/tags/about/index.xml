@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>About - 标签 - HAIR&#39;s world</title>
-        <link>https://hair2020.github.io/tags/about/</link>
+        <link>http://localhost:1313/tags/about/</link>
         <description>About - 标签 - HAIR&#39;s world</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>a644661457@gmail.com (hair)</managingEditor>
-            <webMaster>a644661457@gmail.com (hair)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 27 Jan 2022 15:47:01 &#43;0800</lastBuildDate><atom:link href="https://hair2020.github.io/tags/about/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>a644661457@gmail.com (hair)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 27 Jan 2022 15:47:01 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/about/" rel="self" type="application/rss+xml" /><item>
     <title>About</title>
-    <link>https://hair2020.github.io/about/</link>
+    <link>http://localhost:1313/about/</link>
     <pubDate>Thu, 27 Jan 2022 15:47:01 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://hair2020.github.io/about/</guid>
+    <guid>http://localhost:1313/about/</guid>
     <description><![CDATA[关于本站 ​ 之前在OneNote做一些笔记，2021寒假空多，建个博客用用。 ​ 随缘随机更新内容。 警告 本站内容仅供学习、娱乐使用 关于将来 ​ 保密 关]]></description>
 </item></channel>
 </rss>

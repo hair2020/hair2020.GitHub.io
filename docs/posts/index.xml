@@ -1,78 +1,78 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>所有文章 - HAIR&#39;s world</title>
-        <link>https://hair2020.github.io/posts/</link>
+        <link>http://localhost:1313/posts/</link>
         <description>所有文章 | HAIR&#39;s world</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>a644661457@gmail.com (hair)</managingEditor>
-            <webMaster>a644661457@gmail.com (hair)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 06 Apr 2024 18:58:15 &#43;0800</lastBuildDate><atom:link href="https://hair2020.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>a644661457@gmail.com (hair)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 06 Apr 2024 18:58:15 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
     <title>2024</title>
-    <link>https://hair2020.github.io/posts/articles/2024/</link>
+    <link>http://localhost:1313/posts/articles/2024/</link>
     <pubDate>Sat, 06 Apr 2024 18:58:15 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://hair2020.github.io/posts/articles/2024/</guid>
+    <guid>http://localhost:1313/posts/articles/2024/</guid>
     <description><![CDATA[2024 04]]></description>
 </item><item>
     <title>MarkDownMemo</title>
-    <link>https://hair2020.github.io/posts/memos/markdownmemo/</link>
+    <link>http://localhost:1313/posts/memos/markdownmemo/</link>
     <pubDate>Tue, 01 Mar 2022 17:08:36 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://hair2020.github.io/posts/memos/markdownmemo/</guid>
+    <guid>http://localhost:1313/posts/memos/markdownmemo/</guid>
     <description><![CDATA[公式块formula block 换行newline :段落的换行是使用两个以上空格加上回车。 空格space: Input methods switch to full angle to work 字体 1 2 3 4 5 6 *斜体文本*]]></description>
 </item><item>
     <title>cppVscodeDebug</title>
-    <link>https://hair2020.github.io/posts/code/cppvscodedebug/</link>
+    <link>http://localhost:1313/posts/code/cppvscodedebug/</link>
     <pubDate>Sat, 26 Feb 2022 20:53:51 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://hair2020.github.io/posts/code/cppvscodedebug/</guid>
+    <guid>http://localhost:1313/posts/code/cppvscodedebug/</guid>
     <description><![CDATA[出问题时的配置 数据结构的源码是GBK编码，vscode右下角可以改文件编码为GBK vscode终端选择powershell: Ctrl+Shift+p search Select Deafult profile 输入c]]></description>
 </item><item>
     <title>Docker-getting-started</title>
-    <link>https://hair2020.github.io/posts/code/docker/</link>
+    <link>http://localhost:1313/posts/code/docker/</link>
     <pubDate>Fri, 18 Feb 2022 14:56:54 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://hair2020.github.io/posts/code/docker/</guid>
+    <guid>http://localhost:1313/posts/code/docker/</guid>
     <description><![CDATA[Get started tutorial 啥是docker is a runnable instance of an image. You can create, start, stop, move, or delete a container using the DockerAPI or CLI（命令行界面）. can be run on local machines, virtual machines or deployed to the cloud. is portable (can be run on any OS) Containers are isolated from each other]]></description>
 </item><item>
     <title>Go Grammar memo</title>
-    <link>https://hair2020.github.io/posts/code/grammar/</link>
+    <link>http://localhost:1313/posts/code/grammar/</link>
     <pubDate>Wed, 09 Feb 2022 20:31:45 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://hair2020.github.io/posts/code/grammar/</guid>
+    <guid>http://localhost:1313/posts/code/grammar/</guid>
     <description><![CDATA[基中基 uint、unit32、unit64 都是无符号整形，在32位系统中uint和uint32相同，在64位系统中uint和uint64位相]]></description>
 </item><item>
     <title>无损扩容C盘</title>
-    <link>https://hair2020.github.io/posts/memos/%E6%97%A0%E6%8D%9F%E6%89%A9%E5%AE%B9c%E7%9B%98/</link>
+    <link>http://localhost:1313/posts/memos/%E6%97%A0%E6%8D%9F%E6%89%A9%E5%AE%B9c%E7%9B%98/</link>
     <pubDate>Wed, 09 Feb 2022 16:43:13 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://hair2020.github.io/posts/memos/%E6%97%A0%E6%8D%9F%E6%89%A9%E5%AE%B9c%E7%9B%98/</guid>
+    <guid>http://localhost:1313/posts/memos/%E6%97%A0%E6%8D%9F%E6%89%A9%E5%AE%B9c%E7%9B%98/</guid>
     <description><![CDATA[摘要 我的小本由于Edge和开发环境的原因，C盘快爆了，想给他加20个G。 环境 win10 有C,D,E仨盘，采用GPT分区 开搞 过程： 从 (怎样将d盘的空间]]></description>
 </item><item>
     <title>写的小玩意</title>
-    <link>https://hair2020.github.io/posts/code/%E5%86%99%E7%9A%84%E5%B0%8F%E7%8E%A9%E6%84%8F/</link>
+    <link>http://localhost:1313/posts/code/%E5%86%99%E7%9A%84%E5%B0%8F%E7%8E%A9%E6%84%8F/</link>
     <pubDate>Tue, 08 Feb 2022 17:35:37 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://hair2020.github.io/posts/code/%E5%86%99%E7%9A%84%E5%B0%8F%E7%8E%A9%E6%84%8F/</guid>
+    <guid>http://localhost:1313/posts/code/%E5%86%99%E7%9A%84%E5%B0%8F%E7%8E%A9%E6%84%8F/</guid>
     <description><![CDATA[go 打麻将投骰子模拟器1.0 main.go 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 package main import ( &#34;fmt&#34; &#34;math/rand&#34; &#34;time&#34; ) func main() { fmt.Println(&]]></description>
 </item><item>
     <title>睡觉</title>
-    <link>https://hair2020.github.io/posts/articles/%E7%9D%A1%E8%A7%89/</link>
+    <link>http://localhost:1313/posts/articles/%E7%9D%A1%E8%A7%89/</link>
     <pubDate>Sun, 06 Feb 2022 22:21:57 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://hair2020.github.io/posts/articles/%E7%9D%A1%E8%A7%89/</guid>
+    <guid>http://localhost:1313/posts/articles/%E7%9D%A1%E8%A7%89/</guid>
     <description><![CDATA[入眠方法 提示 遇到难题睡大觉 什么玩意睡眠法我忘了 将身体全方位的放松，包括头皮、眉毛、舌头 有规律的缓慢的深呼吸，吸气和憋气各4秒 眼睛在眼窝中随意]]></description>
 </item><item>
     <title>BeforeJava</title>
-    <link>https://hair2020.github.io/posts/code/beforejava/</link>
+    <link>http://localhost:1313/posts/code/beforejava/</link>
     <pubDate>Sun, 06 Feb 2022 21:56:13 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://hair2020.github.io/posts/code/beforejava/</guid>
+    <guid>http://localhost:1313/posts/code/beforejava/</guid>
     <description><![CDATA[Java运行机制： ​ JVM JRE JDK JVM java虚拟机（有不同操作系统版本），翻译字节码（class文件） JRE 包含JVM、库函数等 JDK 包含JRE，编译器和调]]></description>
 </item><item>
     <title>GRPC_Strat</title>
-    <link>https://hair2020.github.io/posts/code/grpc_strat/</link>
+    <link>http://localhost:1313/posts/code/grpc_strat/</link>
     <pubDate>Thu, 03 Feb 2022 14:45:13 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://hair2020.github.io/posts/code/grpc_strat/</guid>
+    <guid>http://localhost:1313/posts/code/grpc_strat/</guid>
     <description><![CDATA[0.介绍 备忘，不涉及技术 1 proto文件 1.1 项目结构 ​ 1.2 proto 在proto文件夹下新建xxx.proto文件，vscode会提示有插件，安装前俩即]]></description>
 </item></channel>
 </rss>
